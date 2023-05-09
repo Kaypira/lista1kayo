@@ -1,0 +1,162 @@
+Console.WriteLine("Hello, World!");
+
+//----ATIV 1 LISTA CESAR
+//Console.WriteLine("Saiba se C é maior que A e B");
+//Console.WriteLine("DIGITE A"); int a = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("DIGITE B"); int b = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("DIGITE C"); int c = (int.Parse(Console.ReadLine()));
+//if (a + b < c)
+//{
+//    Console.WriteLine("C É MAIOR QUE A E B, ELE É POTENTE");
+//}
+//else
+//{
+//    Console.WriteLine("C É MENOR QUE A + B, ELE É FRACO");
+//}
+
+//---------ex 2
+//Console.WriteLine("CADASTRO ESTADO CIVIL");
+//Console.WriteLine("DIGITE SEU NOME"); string name = (Console.ReadLine());
+//Console.WriteLine("DIGITE SEU SEXO EM M OU F "); string sex = (Console.ReadLine().ToUpper());
+//Console.WriteLine("DIGITE SEU ESTADO CIVIL"); string c = (Console.ReadLine().ToUpper());
+//Console.WriteLine(name);
+//Console.WriteLine(sex);
+//Console.WriteLine(c);
+//if (sex == "F" && c == "CASADA")
+//{
+//    Console.WriteLine("DIGITE QUANTO ANOS DE CASAMENTO"); int tempca = (int.Parse(Console.ReadLine()));
+//}
+//else
+//{
+//    Console.WriteLine("concluido");
+//}
+
+
+
+
+//---------ex 3
+//Console.WriteLine("SAIBA SE UM NUMERO É IMPAR OU PAR");
+//Console.WriteLine("DIGITE O NUMERO INTEIRO"); int n1 = (int.Parse(Console.ReadLine()));
+//Console.WriteLine(n1);
+//if (n1 % 2 == 0)
+//{
+//    Console.WriteLine("VOCE DIGITOU UM NUMERO PAR");
+//}
+//else
+//{
+//    Console.WriteLine("voce digitou um numero impar");
+//}
+
+//--------ex4
+//Console.WriteLine("digite o numero A"); int a = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("digite o numero B"); int b = (int.Parse(Console.ReadLine()));
+
+//if (a == b)
+//{
+//    int c = (a + b);
+//    Console.WriteLine(" Os Valores são iguais e o seu resultado é  " + c);
+//}
+//else
+//{
+//    int c = (a * b);
+//    Console.WriteLine(" Os Valores são diferentes e o seu resultado é " + c);
+//}
+
+//--------ex5
+////Console.WriteLine("digite um numero "); int numa = (int.Parse(Console.ReadLine()));
+////if (numa >= 0)
+////{
+////    Console.WriteLine("esse numero é positivo e o seu dobro é " + numa * 2);
+////}
+////else
+////{
+////    Console.WriteLine("esse numero é negativo e o seu triplo é " + numa * 3);
+////}
+
+//------ex7
+////Console.WriteLine("digite um numero "); int numa = (int.Parse(Console.ReadLine()));
+////if (numa % 2 == 0)
+////{
+////    Console.WriteLine("esse numero é par, ele somado a 5 é: " + (numa + 5));
+////}
+////else
+////    Console.WriteLine("esse numero é impar, ele somado a 8 é: " + (numa + 8));
+
+//------ - ex8
+//Console.WriteLine("digite um numero "); int numa = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("digite um numero "); int numb = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("digite um numero "); int numc = (int.Parse(Console.ReadLine()));
+//int aux = 0;
+//if (numa < numb)
+//{
+//    aux = numa;
+//    numa = numb;
+//    numb = aux;
+//}
+//if (numa < numc)
+//{
+//    aux = numa;
+//    numa = numc;
+//    numc = aux;
+//}
+//if (numb < numc)
+//{
+//    aux = numb;
+//    numb = numc;
+//    numc = aux;
+//}
+//Console.WriteLine(" o valor em ordem decrescente é " + numa + ", " + numb + ", " + numc + "!");
+
+//-----ex9
+//Console.WriteLine("digite um sua altura "); double altu = (double.Parse(Console.ReadLine()));
+//Console.WriteLine("digite o seu sexo M ou F"); string sex = (Console.ReadLine().ToUpper());
+//if (sex == "M")
+//    Console.WriteLine("O SEU PESO IDEAL É " + ((72.7 * altu) - 58));
+//else
+//    Console.WriteLine("O SEU PESO IDEAL É " + ((62.1 * altu) - 44.7));
+
+//-ex10
+//Console.WriteLine("digite um sua altura "); decimal altu = (decimal.Parse(Console.ReadLine()));
+//Console.WriteLine("digite o seu peso "); decimal pes = (decimal.Parse(Console.ReadLine()));
+//decimal imc = (pes / (altu * altu));
+//Console.WriteLine("o seu IMC é {0} a sua altura {1} e seu peso {2} ", imc, altu, pes);
+//if (imc < decimal.Parse("18.5"))
+//    Console.WriteLine("seu IMC é {0} voce esta ABAIXO do peso procure um medico ou nutricionista ", imc);
+//else if (imc >= decimal.Parse("18.5") && imc < 25)
+//    Console.WriteLine("seu IMC é {0} voce esta no peso NORMAL continue assim ", imc);
+//else if (imc >= 25 && imc < 30)
+//    Console.WriteLine("seu IMC é {0} voce esta ACIMA do peso procure um medico ou nutricionista ", imc);
+//else
+//    Console.WriteLine("seu IMC é {0} voce esta OBESO procure um medico ou nutricionista ", imc);
+
+//Ex 11
+//NAO CONSEGUI FAZER RODAR :(
+
+//Console.WriteLine("digite o valor do seu produto "); int pre = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("digite 1 se for À vista em dinheiro ou cheque, recebe 10% de desconto");
+//Console.WriteLine("digite 2 se for À vista no cartão de crédito, recebe 15% de desconto ");
+//Console.WriteLine("digite 3 se for Em duas vezes, preço normal de etiqueta sem juros ");
+//Console.WriteLine("digite 4 se for Em duas vezes, preço normal de etiqueta mais juros de 10% ");
+//Console.WriteLine("qual a forma de pagamento"); int pag = (int.Parse(Console.ReadLine()));
+//if (pag == 1)
+//{
+//    int pag1 = 0.90 * pre;
+//    Console.WriteLine("o valor pago será  " + pag1);
+//}
+//else if (pag == 2)
+//{
+//    int pag2 = (0.85 * pre);
+//    Console.WriteLine("o valor pago será " + pag2);
+//}
+//else if (pag == 3)
+//{
+//    int pag3 = pre;
+//    Console.WriteLine("o valor pago será {0} ", pag3);
+//}
+//else if (pag == 4)
+//{
+//    int pag4 = 1.10 * pre;
+//    Console.WriteLine("o valor pago será {0} ", pag4);
+//}
+//else
+//    Console.WriteLine("tente novamente");
